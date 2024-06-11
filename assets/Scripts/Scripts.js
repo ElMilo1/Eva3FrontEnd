@@ -18,9 +18,9 @@ const userData =() =>{
 
     let vAge = document.getElementById("uedad").value;
 
-    let vGender = document.querySelector('input[name="sexo"]').value;
+    let vGender = document.getElementById("sexo").value;
 
-    let vExer = document.querySelector('input[name="rutina"]').value;
+    let vExer = document.querySelector("input[name='rutina']").value;
 
     let eComment = document.getElementById("comentario");
     let vComment = eComment.value;

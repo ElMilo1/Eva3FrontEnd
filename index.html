@@ -138,13 +138,14 @@
             <input class="input1" type="number" name="uedad" id="uedad"><br>
 
             <label for="sexo">Sexo<span>*</span>:</label>
-            <form>
-                <input type="radio" value="Masculino" name="sexo" id="Masculino">Masculino.
-                <input type="radio" value="Femenino" name="sexo" id="Femenino">Femenino.
-                <input type="radio" value="Otros" name="sexo" id="Otros">Otros.
-            </form><br>
+            <select name="sexo" id="sexo">
+                <option value=""></option>
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+                <option value="Otros">Otros</option>
+            </select><br>
 
-            <label for="rutinas">Seleccione su tipo de rutina:</label>
+            <label for="rutina">Seleccione su tipo de rutina:</label>
             <form>
                 <input type="radio" value="Superior" name="rutina" id="superior">Tronco superior.
                 <input type="radio" value="Piernas" name="rutina" id="inferior">Piernas.
