@@ -1,0 +1,38 @@
+.parte1{
+    background-color: gray;
+    text-align: left;
+}
+.parte2{
+    background-color: palegoldenrod;
+    text-align: left;
+}
+.nav1{
+    border-radius: 5%;
+    background-color: aqua;
+}
+body{
+    margin: 1%;
+    text-align: center;
+}
+#intro1{
+    color: white;
+}
+#header1{
+    width: 396px;
+    height: 226px;
+}
+body{
+    border-radius: 5%;
+    background-color: black
+}
+h1{
+    color: white;
+
+}
+#insta{
+    height: 30px;
+    width: 30px;
+}
+input{
+    width: 50%;
+}
