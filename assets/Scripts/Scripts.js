@@ -7,7 +7,7 @@ window.addEventListener("load",()=>{
 });
 
 
-// funcion userdata() recupera los datos del formulario, valida y envia a firestore mediante funcion registrarUsuario()
+// funcion userdata() recupera los datos del formulario, valida,y en caso de ser valido, crea el objeto "user" y lo envia a firestore mediante funcion registrarUsuario()
 const userData =() =>{
     let valido = true;
     let msgError = "";
@@ -138,6 +138,8 @@ const enviarRutina = (value) => {
 }};
 
 // carga la tabla con los usuarios ya registrados en la base de datos, siendo llamados con la funcion del archivo promesas llamada recuperarUsuario()
+// y retornando un diccionario que debe ser recorrido con un ciclo for, el cual crea tambien los botones "actualizar","confirmar" y "eliminar"
+// tambien permite la funcion de eliminar registro la cual funciona de forma exitosa.
 const cargarUsuarios = () => {
     recuperarUsuario().then((tabla) => {
         let relleno = "";
