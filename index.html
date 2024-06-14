@@ -118,6 +118,8 @@
     </div>
     <div class="parte2" id="contacto">
         <h3>Contactanos</h3>
+        <button type="button" id="Contraste">Contraste</button>
+        <button type="button" id="Tamanio">Tamaño</button>
         <div id="contactoDirecto">
             <label for="unombre">Nombre<span>*</span>:</label>
             <input class="input1" type="text" id="unombre" name="unombre" placeholder="Juan"><br>
@@ -126,7 +128,7 @@
             <input class="input1" type="text" id="uapellido" name="uapellido" placeholder="Hernandez"><br>
 
             <label for="urut">Rut<span>*</span>:</label>
-            <input class="input1" type="text" id="urut" name="urut" placeholder="12.123.123-1"><br>
+            <input class="input1" type="number" id="urut" name="urut" placeholder="12.123.123-1"><br>
 
             <label for="telefono">Telefono<span>*</span>:</label>
             <input class="input1" type="tel" id="telefono" name="telefono"><br>
@@ -156,9 +158,31 @@
             <textarea class="input1" name="comentario" id="comentario" cols="30" rows="10"></textarea><br>
 
             <button type="button" id="BtnEnviar">Enviar.</button>
+            <button type="button" id="BtnActualizar">Actualizar.</button>
+            
 
         </div>
-        <a href="https://www.instagram.com/indiferentemente.milo/"><img src="assets/img/instagram_icon.png" alt="Link a instagram" class="insta"></a>
+        <a href="https://www.instagram.com/indiferentemente.milo/"><img src="assets/img/instagram_icon.png" alt="Link a instagram" class="insta" width="5%" height="5%"></a>
+    </div>
+    <div class="parte1" id="datos_usuarios">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre | </th>
+                    <th>Apellido | </th>
+                    <th>Rut | </th>
+                    <th>Telefono | </th>
+                    <th>Fecha de nacimiento | </th>
+                    <th>Edad | </th>
+                    <th>Sexo | </th>
+                    <th>Rutina | </th>
+                    <th>Comentario</th>
+                </tr>
+            </thead>
+            <tbody id="tablaUsuarios">
+                
+            </tbody>
+        </table>
     </div>
 </body>
 </html>
